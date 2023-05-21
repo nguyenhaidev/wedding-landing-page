@@ -1,20 +1,14 @@
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./app.css";
-import Detail from "./components/Detail";
-import Footer from "./components/Footer";
-import More from "./components/More";
-import Navbar from "./components/Navbar";
-import OurStory from "./components/OurStory";
-import PackingAndStay from "./components/PackingAndStay";
+import { Home } from "./pages/Home";
 
 export function App() {
   return (
     <>
-      <Navbar />
-      <OurStory />
-      <Detail />
-      <More />
-      <PackingAndStay />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </>
   );
 }
