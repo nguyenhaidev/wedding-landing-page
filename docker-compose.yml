@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build: .
+    container_name: nguyenhaidev/wedding-page
+    image: nguyenhaidev/wedding-page
+    ports:
+      - "8000:80"
+    restart: unless-stopped
