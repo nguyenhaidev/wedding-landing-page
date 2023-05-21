@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "ourStory": "Our Story",
+    "detail": "Detail",
+    "packingAndStay": "Packing and Stay",
+    "more": "More"
+  },
+  "ourStory": {
+    "gettingMerried": "We're Getting Married",
+    "name": "Phuoc Loc & Thi Luyen",
+    "time": "Sunday, 28th May 2023",
+    "location": "Vinh An, Vinh Cuu"
+  },
+  "detail": {
+    "label1": "Celebrating Our Love",
+    "label2": "With Those We Love",
+    "ceremony": {
+      "label": "Ceremony",
+      "value": "Somewhere in Dong Nai"
+    },
+    "reception": {
+      "label": "Reception",
+      "value": "28th May, 2023 - 11:00 AM \nTrung Tam Van Hoa Huyen Vinh Cuu \n02 Ngo quyen, Vinh An, Vinh Cuu, Dong Nai"
+    }
+  },
+  "more": {
+    "label": "Not Just an\nOrdinary Love Story",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium sagittis lectus in laoreet. Pellentesque quis elit porttitor, ultricies nibh id, porta diam. Nunc bibendum fermentum purus, eu sollicitudin augue iaculis non. Pellentesque facilisis velit sed congue rutrum. In ut tempor magna. Duis lectus dui, condimentum ac velit vel, posuere gravida orci. Vivamus condimentum sem risus. In non dignissim neque, nec finibus tellus. Nam in hendrerit felis. Nunc imperdiet tincidunt velit nec mollis. Duis eu ornare urna. Pellentesque in dui vel magna vehicula ullamcorper et sit amet velit.",
+    "quote": "“To the world you are one person, but to one person you are the world”",
+    "author": "Anonymus"
+  },
+  "packingAndStay": {
+    "label": "Packing & Stay",
+    "stay": {
+      "label": "Stay",
+      "address": "Random Hotel\nAddress"
+    },
+    "packing": {
+      "label": "Packing",
+      "address": "Trung Tam Van Hoa Huyen Vinh Cuu \n02 Ngo quyen, Vinh An, Vinh Cuu, Dong Nai"
+    },
+    "hopeToSeeYou": "Hope to See You!"
+  },
+  "footer": {
+    "giveACall": "Give Us a Call"
+  }
+}
