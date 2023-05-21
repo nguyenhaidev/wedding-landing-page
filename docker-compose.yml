@@ -1,8 +1,10 @@
 services:
-  frontend:
-    build: .
-    container_name: nguyenhaidev/wedding-page
+   frontend:
+    build:
+            context: .
+            dockerfile: dockerfile
     image: nguyenhaidev/wedding-page
+    pull_policy: never
     ports:
-      - "8000:80"
+      - "8100:80"
     restart: unless-stopped
