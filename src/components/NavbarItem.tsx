@@ -4,7 +4,7 @@ type Props = {
   className?: string;
   label: string;
   to: string;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export default function NavbarItem({ className, label, to, onClick }: Props) {

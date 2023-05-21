@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import NavbarItem from "./NavbarItem";
 import { useState } from "preact/hooks";
 

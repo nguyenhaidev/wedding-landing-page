@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { MapContainer } from "react-leaflet/MapContainer";
-import { TileLayer } from "react-leaflet/TileLayer";
+// import { MapContainer } from "react-leaflet/MapContainer";
+// import { TileLayer } from "react-leaflet/TileLayer";
 
 export default function Detail() {
   const { t } = useTranslation("translation", { keyPrefix: "detail" });
